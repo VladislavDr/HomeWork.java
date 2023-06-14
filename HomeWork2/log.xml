@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-06-14T10:26:32.865615700Z</date>
+  <millis>1686738392865</millis>
+  <nanos>615700</nanos>
+  <sequence>0</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>bubbleSort</method>
+  <thread>1</thread>
+  <message>[6, 12, 4, 1, 15, 10]</message>
+</record>
+<record>
+  <date>2023-06-14T10:26:33.005535800Z</date>
+  <millis>1686738393005</millis>
+  <nanos>535800</nanos>
+  <sequence>1</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>bubbleSort</method>
+  <thread>1</thread>
+  <message>[6, 4, 12, 1, 15, 10]</message>
+</record>
+<record>
+  <date>2023-06-14T10:26:33.007535100Z</date>
+  <millis>1686738393007</millis>
+  <nanos>535100</nanos>
+  <sequence>2</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>bubbleSort</method>
+  <thread>1</thread>
+  <message>[6, 4, 1, 12, 15, 10]</message>
+</record>
+<record>
+  <date>2023-06-14T10:26:33.008534900Z</date>
+  <millis>1686738393008</millis>
+  <nanos>534900</nanos>
+  <sequence>3</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>bubbleSort</method>
+  <thread>1</thread>
+  <message>[6, 4, 1, 12, 10, 15]</message>
+</record>
+<record>
+  <date>2023-06-14T10:26:33.010534200Z</date>
+  <millis>1686738393010</millis>
+  <nanos>534200</nanos>
+  <sequence>4</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>bubbleSort</method>
+  <thread>1</thread>
+  <message>[4, 6, 1, 12, 10, 15]</message>
+</record>
+<record>
+  <date>2023-06-14T10:26:33.012531300Z</date>
+  <millis>1686738393012</millis>
+  <nanos>531300</nanos>
+  <sequence>5</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>bubbleSort</method>
+  <thread>1</thread>
+  <message>[4, 1, 6, 12, 10, 15]</message>
+</record>
+<record>
+  <date>2023-06-14T10:26:33.015529800Z</date>
+  <millis>1686738393015</millis>
+  <nanos>529800</nanos>
+  <sequence>6</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>bubbleSort</method>
+  <thread>1</thread>
+  <message>[4, 1, 6, 10, 12, 15]</message>
+</record>
+<record>
+  <date>2023-06-14T10:26:33.017527800Z</date>
+  <millis>1686738393017</millis>
+  <nanos>527800</nanos>
+  <sequence>7</sequence>
+  <logger>task2</logger>
+  <level>INFO</level>
+  <class>task2</class>
+  <method>bubbleSort</method>
+  <thread>1</thread>
+  <message>[1, 4, 6, 10, 12, 15]</message>
+</record>
+</log>
