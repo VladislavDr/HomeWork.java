@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Main {
+public class task1 {
     public static void main(String[] args) {
 
         List<String> lst = new ArrayList<>();
