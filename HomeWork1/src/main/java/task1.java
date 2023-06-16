@@ -12,8 +12,8 @@ public class task1 {
             arr[i] = numb;
         }
 
-        int min = 0;
-        int max = 0;
+        int min = arr[0];
+        int max = arr[0];
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > max) {
                 max = arr[i];
