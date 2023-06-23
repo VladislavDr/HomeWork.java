@@ -36,29 +36,27 @@ public class task1 {
     }
 
     public static void menu() {
-        System.out.println("Введите add, если хотите добавить в контакты человека.\n" +
-                "Введите get, если хотите получить весь список телефонов по фамилии.\n" +
-                "Введите remove, чтобы удалить из контактов. \n" +
-                "Введите list, если хотите посмотреть все записи\n" +
-                "Введите exit, если хотите выйти из программы\n");
-        Scanner scanner = new Scanner(System.in);
-        String consoleRead = scanner.next();
+        while (true) {
+            System.out.println("Введите add, если хотите добавить в контакты человека.\n" +
+                    "Введите get, если хотите получить весь список телефонов по фамилии.\n" +
+                    "Введите remove, чтобы удалить из контактов. \n" +
+                    "Введите list, если хотите посмотреть все записи\n" +
+                    "Введите exit, если хотите выйти из программы\n");
+            Scanner scanner = new Scanner(System.in);
+            String consoleRead = scanner.next();
 
-        switch (consoleRead){
-            case "add":
-                addContact(contacts);
-                menu();
-            case "remove":
-                removeContact(contacts);
-                menu();
-            case "list":
-                System.out.println(contacts);
-                menu();
-            case "get":
-                getContact(contacts);
-                menu();
-            case "exit":
-                break;
+            switch (consoleRead) {
+                case "add":
+                    addContact(contacts);
+                case "remove":
+                    removeContact(contacts);
+                case "list":
+                    System.out.println(contacts);
+                case "get":
+                    getContact(contacts);
+                case "exit":
+                    System.exit(0);
+            }
         }
     }
 
@@ -72,7 +70,7 @@ public class task1 {
 
         switch (inputStr) {
             case "back":
-                menu();
+                break;
 
             case "addname": {
                 System.out.println("Введите фамилию человека\n");
