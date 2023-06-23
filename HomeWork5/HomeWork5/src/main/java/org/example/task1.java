@@ -88,11 +88,10 @@ public class task1 {
                 if (numbers == null) {
                     numbers = new HashSet<>();
                     numbers.add(num);
-                    contacts.put(name, numbers);
                 } else {
                     numbers.add(num);
-                    contacts.put(name, numbers);
                 }
+                contacts.put(name, numbers);
                 System.out.println("Номер успешно добавлен");
                 break;
             }
